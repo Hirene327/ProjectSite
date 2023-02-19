@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>MITAYOKI</title>
+        <link rel="stylesheet" href="One.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <title>Mitoyaki</title>
+
+  <link rel="shortcut icon" href="thumbnails/logo.png" type="images/x-icon">
+  
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div>
+                <p class="logo">  MITOYAKI</p> 
+                <p class="translate"> (みとやき) </p>
+
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="One.html">HOME</a></li>
+                        <li><a href="Two.html">ABOUT</a></li>
+                        <li><a href="Three.html">PRODUCTS</a></li>
+                        <li><a href="Four.html">GOALS</a></li>
+                        <li><a href="Five.html">INFOS</a></li>
+                        <li><a href="Six.html">CONCEPT</a></li>
+                        <li><a href="Seven.html">CONTACTS/ LOCATION</a></li>
+                        <li><a href="Eight.html">SUMMARY </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>"An <span> Affordable  Combination</span>  to  the  Hungry Nation”</h1>
+                <p > Nowadays, people are becoming more health-conscious and seeking unique products deemed healthy and sustainable. In such a case, the Mitoyaki will offer unique yet recognizable flavors while being competitively priced for everyone’s consumption.</p>
+                
+            <a href="Two.html" >  <button  class="hero-btn" >  Learn More </button> </a> 
+                <div class="icons-row">
+                    <a    href="https://twitter.com/Mitoyaki_mojo?fbclid=IwAR2G3dyJiIR1btc_-5U_2wPY-jOSupkN724kTdtIvhpF6oH8vZnM_DkWw_4"  target="_blank"> 
+                        <ion-icon   class="icons"  name="logo-twitter"></ion-icon>
+                    </a>
+                    <a    href="https://www.facebook.com/profile.php?id=100090530194165"  target="_blank"> 
+                        <ion-icon   class="icons"  name="logo-facebook"></ion-icon>
+                    </a>
+                    <a    href="https://www.instagram.com/mitoyaki_/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR1lST8TXHSQobr2qeJdjeAB7ezdBm0vYfdq9gdobhNlUsqtVDTPnhZTn_Y"  target="_blank"> 
+                        <ion-icon   class="icons"  name="logo-instagram"></ion-icon>
+                    </a>
+                        
+                       
+                </div>
+            </div>
+
+        </section>
+        
+
+        <!------- Toggle Menu-------->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
